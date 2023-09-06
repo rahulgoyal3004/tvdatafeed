@@ -27,6 +27,7 @@ class Interval(enum.Enum):
     in_daily = "1D"
     in_weekly = "1W"
     in_monthly = "1M"
+    in_quarterly = "3M"
 
 
 class TvDatafeed:
